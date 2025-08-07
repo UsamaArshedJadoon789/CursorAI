@@ -8,7 +8,8 @@
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "browsers:install": "playwright install --with-deps",
-    "codegen": "playwright codegen https://qc.uapi.sa/login"
+    "codegen": "playwright codegen https://qc.uapi.sa/login",
+    "test:full": "SAFE_MODE=false ALLOW_DESTRUCTIVE=true ALLOW_UPLOADS=true playwright test"
   },
   "repository": {
     "type": "git",
