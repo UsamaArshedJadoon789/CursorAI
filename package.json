@@ -1,0 +1,32 @@
+{
+  "name": "uapi-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "browsers:install": "playwright install --with-deps",
+    "codegen": "playwright codegen https://qc.uapi.sa/login"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UsamaArshedJadoon789/CursorAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UsamaArshedJadoon789/CursorAI/issues"
+  },
+  "homepage": "https://github.com/UsamaArshedJadoon789/CursorAI#readme",
+  "playwright": "test",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "dotenv": "^17.2.1",
+    "openai": "^4.58.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
