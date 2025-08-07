@@ -1,4 +1,4 @@
-import { Page, expect } from '@playwright/test';
+import { Page, expect, ConsoleMessage } from '@playwright/test';
 
 export async function expectNoConsoleErrors(page: Page, run: () => Promise<void>) {
   const errors: string[] = [];

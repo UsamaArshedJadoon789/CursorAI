@@ -23,6 +23,7 @@
   "homepage": "https://github.com/UsamaArshedJadoon789/CursorAI#readme",
   "playwright": "test",
   "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
     "@playwright/test": "^1.54.2",
     "dotenv": "^17.2.1",
     "openai": "^4.58.1",
